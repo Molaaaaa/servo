@@ -17,7 +17,7 @@ void loop(){
 
 
 Servo servo2;
-int servoPin = 9;
+int servoPin = 9;  #pin must be changed once we know which Arduino pin will be#
 
 void setup(){
   servo1.attach(servoPin);
@@ -34,7 +34,7 @@ void loop(){
 
 
 Servo servo3;
-int servoPin = 9;
+int servoPin = 9;   #pin must be changed once we know which Arduino pin will be#
 
 void setup(){
   servo1.attach(servoPin);
@@ -48,3 +48,5 @@ void loop(){
   servo3.writeMicroseconds(2000);
   delay(1000);
 }
+
+#we need to make it infinite or else it will stop when it makes this move once#
