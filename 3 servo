@@ -54,7 +54,7 @@ void loop(){
 
 #this is wrong but i put it here for if it goes too fast#
 
-#include <Servo.h>
+include <Servo.h>
 Servo servo1;
 int servoPin = 9;
 
